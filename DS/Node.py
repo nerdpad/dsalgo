@@ -3,6 +3,6 @@ class Node:
 
 	def __init__(self, value):
 		""" Initlizes a new node """
-		self.value = value
+		self.data = value
 		self.next = None
 		self.prev = None
